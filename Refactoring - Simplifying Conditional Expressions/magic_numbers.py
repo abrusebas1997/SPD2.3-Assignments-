@@ -1,0 +1,1 @@
+#'replace magic number with symbolic constant'
