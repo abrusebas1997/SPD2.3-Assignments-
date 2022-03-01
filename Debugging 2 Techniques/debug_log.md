@@ -15,7 +15,6 @@ _Then I noticed another bug ..._
 
 ## Exercise 1
 
-[[Your answer goes here!]]
 1.1 Everything works great until you create a pizza order, then, it gives you this error: TypeError: 'topping' is an invalid keyword argument for PizzaTopping. I changed the for loop in line 79 to for topping in toppings_list:
         pizza.toppings.append(PizzaTopping(topping_type=topping))
 
@@ -25,8 +24,7 @@ _Then I noticed another bug ..._
 
 ## Exercise 2
 
-1.1 [[Your answer goes here!]]
-It works fine until I submit the weather, then it throws me an error: Internal Server Error, and on the back end  File "app.py", line 52, in results
+1.1 It works fine until I submit the weather, then it throws me an error: Internal Server Error, and on the back end  File "app.py", line 52, in results
     'city': result_json['name'],
 KeyError: 'name'. This is because there's an error with the API
 
@@ -35,7 +33,6 @@ KeyError: 'name'. This is because there's an error with the API
 
 ## Exercise 3
 
-[[Your answer goes here!]]
 1.1 The first error I solved is the index out of range in line 37. I replaced the i with a j
 
 1.2 Then, I got an error in line 51  and 55 
